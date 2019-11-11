@@ -1,5 +1,10 @@
+html{
+  background: #2ABABB;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -31,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.player-list {
+  background:#2ABABB;
+}
+
+
+.player-card {
+  border: 1px solid black;
+  border-radius:15px;
+  margin:20px;
+  width:50%;
+  margin:1% auto;
+  background:rgb(51, 153, 122);
+  color: yellow;
+}
+
+.dark-mode {
+  background: #08080B;
+  color: #f5f5f5;
+  border:10px solid #347FC4;
+  border-radius:15px;
+}
+
+.player-list .dark-mode {
+  background: #3B3A7C;
+}
+
